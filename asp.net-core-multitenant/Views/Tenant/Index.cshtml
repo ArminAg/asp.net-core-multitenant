@@ -1,0 +1,14 @@
+﻿@model System.Collections.Generic.List<asp.net_core_multitenant.Models.Tenant>
+
+@{
+    ViewData["Title"] = "List of Tenants";
+}
+
+<ul>
+    @foreach (var tenant in Model)
+    {
+        <li>@tenant.Name</li>
+        <li>...@tenant.DomainName</li>
+    }
+</ul>
+
