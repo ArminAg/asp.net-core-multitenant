@@ -14,5 +14,7 @@ namespace asp.net_core_multitenant.Models
         }
 
         public DbSet<Tenant> Tenants { get; set; }
+        //public DbSet<Speaker> Speakers { get; set; }
+        //public DbSet<Session> Sessions { get; set; }
     }
 }

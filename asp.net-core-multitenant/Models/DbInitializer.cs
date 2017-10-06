@@ -41,6 +41,7 @@ namespace asp.net_core_multitenant.Models
                 }
             };
             context.Tenants.AddRange(tenants);
+
             context.SaveChanges();
         }
     }
